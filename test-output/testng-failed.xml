@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SAR Automation]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SAR(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.sar.testCases.dominosTestCase">
+        <methods>
+          <include name="login"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.sar.testCases.dominosTestCase -->
+    </classes>
+  </test> <!-- SAR(failed) -->
+</suite> <!-- Failed suite [SAR Automation] -->
